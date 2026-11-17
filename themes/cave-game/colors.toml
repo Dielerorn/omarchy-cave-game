@@ -1,0 +1,47 @@
+# Cave Game — the dark half. Minecraft as it was in Alpha and Beta, before it
+# was even called Minecraft for long: "Cave Game" was its first working title.
+#
+# The ground is the darkened dirt behind the old Select World and Options
+# screens (the dirt texture drawn at 25% light). Text is the grey-white of a
+# menu button's label. The accent is the green on top of a grass block, so a
+# focused window is a grass block's side: green over dirt. The colours are
+# block materials: TNT and redstone, lava, gold, water, the Nether portal,
+# diamond. Bright yellow is the colour button text turned under the mouse.
+
+mode = "dark"
+
+accent    = "#7FB238"   # grass, as it shows on a map
+selection = "#46372A"   # dirt by torchlight
+muted     = "#7F7F7F"   # smooth stone
+
+background         = "#201812"   # dirt behind the menus
+dark_background    = "#18120D"   # deeper underground
+darker_background  = "#110D09"   # the edge of the torchlight
+lighter_background = "#2E2319"   # dirt one block closer to the torch
+
+foreground        = "#E0E0E0"   # button label
+dark_foreground   = "#A0A0A0"   # a greyed-out button
+light_foreground  = "#EBEBEB"
+bright_foreground = "#FFFFFF"   # the title text
+
+# A grass block's side: green on top, dirt below.
+hyprland_active_border   = "rgba(7FB238ff) rgba(866043ff) 90deg"
+hyprland_inactive_border = "rgba(3A2C20cc)"
+active_border_color      = "#7FB238"
+active_tab_background    = "#46372A"
+
+red     = "#E4533F"   # TNT
+yellow  = "#F0C23C"   # gold ingot
+orange  = "#E8762B"   # lava
+green   = "#7FB238"   # grass
+cyan    = "#4FD2C6"   # diamond
+blue    = "#5D7DE8"   # water
+magenta = "#B068E0"   # Nether portal
+brown   = "#866043"   # dirt
+
+bright_red     = "#FF6E60"   # redstone, powered
+bright_yellow  = "#FFFFA0"   # a button under the mouse
+bright_green   = "#A6D964"   # a lime sapling
+bright_cyan    = "#8DF2EA"   # diamond, lit
+bright_blue    = "#8EADFF"   # the daytime sky
+bright_magenta = "#D29CF7"   # portal glow

@@ -1,0 +1,43 @@
+# Cave Game Day — the light half. The ground is the grey of the inventory and
+# crafting screens. The text is the dark grey of their labels. The accent is
+# the same grass green as the dark half, darkened so it still reads on stone.
+# The ANSI colours are the same block materials, darkened enough to read on
+# the grey (normal >= 4.5:1, bright >= 3.5:1).
+
+mode = "light"
+
+accent    = "#3F6E15"   # grass in the shade of a tree
+selection = "#B4BEE6"   # the old blue tint of a hovered button
+muted     = "#616161"   # cobblestone
+
+background         = "#C6C6C6"   # inventory grey
+dark_background    = "#B7B7B7"   # the window's shadow edge
+darker_background  = "#8B8B8B"   # an empty slot
+lighter_background = "#D8D8D8"   # the window's lit edge
+
+foreground        = "#373737"   # the GUI's shadow line
+dark_foreground   = "#5F5F5F"
+light_foreground  = "#484848"
+bright_foreground = "#1A1A1A"
+
+# A grass block's side: green on top, dirt below.
+hyprland_active_border   = "rgba(3F6E15ff) rgba(866043ff) 90deg"
+hyprland_inactive_border = "rgba(8B8B8Bcc)"
+active_border_color      = "#3F6E15"
+active_tab_background    = "#B4BEE6"
+
+red     = "#9E1F14"   # redstone
+yellow  = "#6B4E00"   # gold, in the inventory
+orange  = "#873800"   # lava, cooled
+green   = "#2D5A0B"   # leaves
+cyan    = "#0A5A55"   # diamond, in the inventory
+blue    = "#1F35A8"   # water, Beta-blue
+magenta = "#7A2AA6"   # Nether portal
+brown   = "#6B4A2E"   # oak log
+
+bright_red     = "#B8301F"
+bright_yellow  = "#7A5B00"
+bright_green   = "#386A12"
+bright_cyan    = "#0D6C66"
+bright_blue    = "#3550C8"
+bright_magenta = "#8A38B5"

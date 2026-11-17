@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.bak.*
+.DS_Store
+# Wallpapers are downloaded by fetch-wallpapers.sh, never committed.
+themes/*/backgrounds/

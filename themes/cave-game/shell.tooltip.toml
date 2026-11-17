@@ -1,0 +1,8 @@
+# The item tooltip from the game: a near-black violet card with a purple edge
+# that fades darker toward the bottom, and white text. It looks the same by
+# day and by night, as it does in the game.
+background       = "#100010"
+background-alpha = 0.94
+text             = "#FFFFFF"
+border           = "rgba(3A0F8Cff) rgba(1F0750ff) 90deg"
+border-alpha     = 1.0
